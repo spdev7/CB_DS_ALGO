@@ -4,7 +4,7 @@
 using namespace std;
 
 void print1(int n){
-    if(n <0)return ;
+    if(n <0)return ;   //PRINTING ODD NUMBER
     else{
         if(n%2!=0)
         cout<<n<<endl;
@@ -14,7 +14,7 @@ void print1(int n){
 }
 
 void print2(int n){
-    if(n>1)
+    if(n>1)              //PRINTING EVEN NUMBER
     {
          if(n % 2 == 0)
          {
