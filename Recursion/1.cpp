@@ -1,3 +1,4 @@
+//NOT A Solution
 #include <iostream>
 using namespace std;
 
@@ -18,4 +19,5 @@ int main (){
 
 //while solving cb recurssion assignment Algo++ Summer 2018 Practice Contest
 //ODD EVEN USING RECURSION
-//in this we will get from n to 0 DOUBT THIS WAS NOT WORKING WITH WHILE STATEMENT
+//in this we will get from n to 0
+//DOUBT THIS WAS NOT WORKING WITH WHILE STATEMENT
