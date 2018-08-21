@@ -1,0 +1,52 @@
+#include <iostream>
+#include<cstring>
+
+using namespace std;
+
+class Car {
+private:
+     int price;
+public:
+      int model_no;
+      char *name;
+Car(){
+    name =NULL;
+    cout<<"making a car.."<<endl;
+           }
+Car(int p,int mn,char *n){
+     price = p;
+     model_no = mn;
+    int l = strlen(n);
+    name = new char[l+1];
+    strcpy(name,n);
+vooid start(){
+    cout<<"starting new car "<<name<<endl;
+}
+void setPiece(int p){
+    if(p>1000)
+{
+    price = p;
+}
+  else{
+      price = 1000;
+  }
+
+}
+int getpiece(){
+    return price;
+}
+void Print(){
+    cout<<name<<endl;
+    cout<<model_no<<endl;
+    cout<<price<<endl;
+    cout<<endl;
+
+}
+
+}           
+};
+int main() {
+    cout<<"Hello World!";
+    Car C;
+    C.setname =  
+}
