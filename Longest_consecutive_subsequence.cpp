@@ -4,8 +4,21 @@ using namespace std;
 
 //#include "solution.h"
 vector<int> longestSubsequence(int *arr, int n){
+       int j=1;
        
-       if()
+           while(j<n){
+               if(a[j]=a[i]+1)
+               {
+                   v1.push_back(a[j]);
+                   i++;
+                   j++;
+               }
+               else{
+                   i++;
+               }
+            
+           }
+       
 }
 
 
