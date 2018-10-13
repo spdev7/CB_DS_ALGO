@@ -24,7 +24,7 @@ int main(){
     int outputsize = 2000;
     
     string * output = new string[outputsize];
-
+  
     int counter =  subsequence(input,output);
    
    for(int i=0;i<counter;i++)
