@@ -1,3 +1,4 @@
+//Used to calculate power recursively
 #include <iostream>
 using namespace std;
 int power(int base,int  num){
