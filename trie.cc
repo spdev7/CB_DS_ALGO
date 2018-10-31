@@ -1,5 +1,6 @@
 // Deepak Aggarwal, Coding Blocks
 // deepak@codingblocks.com
+//This code explains Trie Data Sructure
 #include <iostream>
 #include <queue>
 #include <iomanip>
