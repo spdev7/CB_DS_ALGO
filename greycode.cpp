@@ -1,3 +1,5 @@
+//This code is incomplete
+
 #include<iostream>
 
 int gray(int n){
